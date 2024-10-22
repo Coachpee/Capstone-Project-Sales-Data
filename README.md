@@ -63,5 +63,15 @@ Visualizations can be found [here]
 ------------------------
 ### 💡 Key Findings
 
-- #### Top-performing Products :
-Hats were the highest selling products within the year 2023 and 2024 with a total of 80000 sales with the most sale (45000) in the Eastern region in the month of March.
+- #### Top-performing Products:
+The top 3 performing products were Hats, Shirts and Shoes with Hats being the highest selling product in the year 2023 and 2024 with a total of 80000 sales, having the most sale (45000) in the Eastern region in the month of March.  A consistency is seen in the sale of Hats in the East in the month of March in the previous years. Hence the need to consider stocking up on Hats in the said month in the Eastern to ensure sales.
+
+- #### Regional Sales Performance:
+The South had the highest sales in 2023 and 2024. However, there was a decline in sales in 2024 in all the regions. It is important that the possible causes of the this is looked into avoid reoccurence in the subsequent years.
+
+- #### Under-performing Products:
+Socks and Jacket are the two most under-performing products. It is also noticeable that the sale of these items in April in the West and May in the North respectively were consistently low in the both years. 
+
+- #### Monthly/Quarterly Sales Performance:
+There was a significant increase in sales in Qtr1 and Qtr2 in 2024 from what it was in 2023. Also, there was a decrease in sales in Qtr3 of 2024 with no sale in Qtr4 of 2024.
+Analysis also shows that April and May  were the two most under-perfoming months in the both years.
