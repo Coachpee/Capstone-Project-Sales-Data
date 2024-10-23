@@ -46,7 +46,10 @@ You can find the dataset [here] (
 
 - Identified high-selling products
 
-- Identified top customers based on purchase amount
+![EDA for sales data](https://github.com/user-attachments/assets/ea08d837-a66d-45b5-a1c1-a57c929eca49)
+
+![EDA for sales data2](https://github.com/user-attachments/assets/64df48e9-d05a-467d-a6fa-ddbc4879fa4a)
+
 
 #### 3. Visualization
 
