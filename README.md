@@ -59,9 +59,32 @@ Here, I used Basic Excel functions to run some analysis such as average sales pe
 ```
 
 ```Excel
-=SUMIF(D3:D50002,P16,H3:H50002)
+=SUMIF($D$2:$D$50001,P15,$H$2:$H$50001)
 ```
 
+I was also able to perform some calculations such as the percentage of total sales contributed by each region, monthly sales totals for the current year and total revenue per product using SQL. Using SQL, I was able to gain more insight into the sales by finding the top 5 customers by total purchase amount,products with no sales in the last quarter and the highest-selling product by total sales value. Below are some of the queries used;
+
+**To find the top 5 customers by total purchase amount**:
+
+```SQL
+select top(5) sum([Quantity]) as Top5customers, [Customer_Id] from [dbo].[LITA Capstone sales data]
+Group by [Customer_Id]
+order by 1 desc
+```
+**To find products with no sales in the last quarter**:
+
+```SQL
+select sum([Quantity]) as monthlysales, [Month], [Product]from [dbo].[LITA Capstone sales data]
+where [Years]=2024 and [Month] >9
+group by [Month], [Product]
+```
+**To find the highest-selling product by total sales value**:
+
+```SQL
+Select sum([Quantity]) as TotalSales,[Product]from [dbo].[LITA Capstone sales data]
+Group by [Product]
+Order by 1 desc
+```
 
 #### 3. Visualization
 
@@ -69,11 +92,14 @@ Here, I used Basic Excel functions to run some analysis such as average sales pe
 
   - Monthly sales trends
  
-  - Top-performing products and customers
+  - Top-performing products
  
   - Sales distribution across regions
 
-Visualizations can be found [here]
+Some of the visualizations can be seen below;
+
+
+
 
 ------------------------
 ### 💡 Key Findings
