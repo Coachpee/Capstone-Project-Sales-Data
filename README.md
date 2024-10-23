@@ -50,6 +50,18 @@ You can find the dataset [here] (
 
 ![EDA for sales data2](https://github.com/user-attachments/assets/64df48e9-d05a-467d-a6fa-ddbc4879fa4a)
 
+#### 3. Data Analysis
+
+Here, I used Basic Excel functions to run some analysis such as average sales per product and total revenue by region using the AverageIF anf SUMIF formulas. Below is a sample of the formulas used.
+
+```Excel
+=AVERAGEIF($C$2:$C$50001,P5,$F$2:$F$50001)
+```
+
+```Excel
+=SUMIF(D3:D50002,P16,H3:H50002)
+```
+
 
 #### 3. Visualization
 
