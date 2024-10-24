@@ -46,9 +46,11 @@ You can find the dataset [here] (
 
 - Identified high-selling products
 
-![EDA for sales data](https://github.com/user-attachments/assets/ea08d837-a66d-45b5-a1c1-a57c929eca49)
+![EDA for sales data](https://github.com/user-attachments/assets/9ce31738-0d1a-474a-abb5-04202b879425)
 
-![EDA for sales data2](https://github.com/user-attachments/assets/64df48e9-d05a-467d-a6fa-ddbc4879fa4a)
+
+
+
 
 #### 3. Data Analysis
 
@@ -98,6 +100,14 @@ Order by 1 desc
 
 Some of the visualizations can be seen below;
 
+
+![Sales Data PBI visualization 1](https://github.com/user-attachments/assets/e0b02dea-3e47-4366-8095-c129e7323b30)
+
+![Sales Data PBI visualization 2](https://github.com/user-attachments/assets/518a989e-3c78-4c62-a085-28605af0bdad)
+
+![Sales Data PBI visualization 5](https://github.com/user-attachments/assets/7200eb99-700a-42df-aa06-16748e58923b)
+
+![Sales Data PBI visualization 7](https://github.com/user-attachments/assets/e7c89d39-afb5-4c55-b910-b11886505ecc)
 
 
 
