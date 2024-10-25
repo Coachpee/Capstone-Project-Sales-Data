@@ -13,7 +13,7 @@ The dataset used in this project contains sales transactions in 2023 and 2024. I
 - #### Customer ID
 - #### Product
 - #### Region
-- #### Order Date
+- #### Order date
 - #### Quantity
 - #### Unit Price
 
@@ -54,7 +54,8 @@ You can find the dataset [here] (
 
 #### 3. Data Analysis
 
-Here, I used Basic Excel functions to run some analysis such as average sales per product and total revenue by region using the AverageIF anf SUMIF formulas. Below is a sample of the formulas used.
+Here, I used Basic Excel functions to calculate the Average sales per product and total revenue by region using the AverageIF anf SUMIF functions.
+Below is a sample of the arguments used.
 
 ```Excel
 =AVERAGEIF($C$2:$C$50001,P5,$F$2:$F$50001)
