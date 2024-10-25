@@ -89,7 +89,7 @@ Group by [Product]
 Order by 1 desc
 ```
 
-#### 3. Visualization
+#### 4. Visualization
 
 - Created interactive dashboards to visualize:
 
