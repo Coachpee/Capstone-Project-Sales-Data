@@ -169,7 +169,7 @@ The visualization dashboard is shown below;
 ### 💡 Key Findings
 
 - #### Top-performing Products:
-The top 3 performing products were Hats, Shirts and Shoes with Hats being the highest selling product in the year 2023 and 2024 with a total of 80000 sales, having the most sale (45000) in the Eastern region in the month of March.  A consistency is seen in the sale of Hats in the East in the month of March in the previous years. Hence the need to consider stocking up on Hats in the said month in the Eastern to ensure sales.
+The top 3 performing products were Hats, Shirts and Shoes with Hats being the highest selling product in the year 2023 (35,000 sales) and 2024(45,000 sales) having a total of 80000 sales. having the most sale (45000) in the Eastern region in the month of March.  A consistency is seen in the sale of Hats in the East in the month of March in the previous years. Hence the need to consider stocking up on Hats in the said month in the Eastern to ensure sales.
 
 
 
@@ -179,6 +179,10 @@ The South had the highest sales in 2023 and 2024. However, there was a decline i
 - #### Under-performing Products:
 Socks and Jacket are the two most under-performing products. It is also noticeable that the sale of these items in April in the West and May in the North respectively were consistently low in the both years. 
 
-- #### Monthly/Quarterly Sales Performance:
-There was a significant increase in sales in Qtr1 and Qtr2 in 2024 from what it was in 2023. Also, there was a decrease in sales in Qtr3 of 2024 with no sale in Qtr4 of 2024.
+- #### Yearly/Quarterly Sales Performance:
+There was an overall decrease in sales of the products from 195,000 in 2023 to 150,000 in 2024. There was a significant increase in sales in Qtr1 (72,500) and Qtr2(47,500) in 2024 from what it was in 2023, 55,000 and 32,500 respectively. Also, there was a decrease in sales in Qtr3 from 57,500 in 2023 to 30,000 in 2024 with no sale at all in Qtr4 of 2024.
 Analysis also shows that April and May  were the two most under-perfoming months in the both years.
+
+![sd visuals3](https://github.com/user-attachments/assets/1b0ad229-f209-45d9-a64d-b9f54f30f1a0)
+![sd visuals4](https://github.com/user-attachments/assets/474b5feb-7f63-4edb-b845-e896a440e449)
+
