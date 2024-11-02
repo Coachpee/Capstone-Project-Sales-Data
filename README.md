@@ -193,18 +193,15 @@ The visualization dashboard is shown below;
 ### 💡 Key Findings
 
 - #### Top-performing Products:
-The top 3 performing products were Hats, Shirts and Shoes with Hats being the highest selling product in the year 2023 (35,000 sales) and 2024(45,000 sales) having a total of 80000 sales. having the most sale (45000) in the Eastern region in the month of March.  A consistency is seen in the sale of Hats in the East in the month of March in the previous years. Hence the need to consider stocking up on Hats in the said month in the Eastern to ensure sales.
-
+The top 3 performing products in terms of sales were Hats(80,000) followed by Shoes(72,500) and then Shirts and Gloves witha total sale of 62,500 each. and  with Hats being the highest selling product in the year 2023 (35,000 sales) and 2024(45,000 sales) having a total of 80000 sales. In both 2023 and 2024, there was consistency in the sale of products in particular months of the year,with a remarkable increase in the sale of the products in those months. Gloves were sold in June, 2023(20,0000) and 2024(30,000), Hats were sold in March, 2023(18,000) and 2024(28,000), Jackets were sold in May, 2023(5,000) and 2024(8,000), Shirts were sold in January,2023(13,000) and 2024(20,000),Shoes were sold in February,2023 and 2024 (25,000) and Socks in April,2023(8,000) and 2024(10,000). Shoes and Hats had the highest number of sales transactions(10,000) while Gloves,Shirt,Socks and Jackets had equal sales transactons of 8,000. The highest revenue generated was 3.09millions from the sale of Shoes.
 
 
 - #### Regional Sales Performance:
-The South had the highest sales in 2023(68,000) and 2024(55,000). There was an overall decline in sales in 2024 in all the regions with the sales with the sales of only Gloves, Shoes and Socks in the months of June,February and October respectively. Gloves and Shoes were the highest selling in the South.
+The South had the highest sales in 2023(68,000) and 2024(55,000). In the South, there was the sales of only Gloves(50,000) and Shoes(50,000) in the months of June and February, 2024 and Socks(23,000) in October,2024, with Gloves and Shoes being the highest selling. In the North, Shirts were the highest selling products with a total of 13,000 in 2023 and 20,000 in 2024 in the month of January, followed by Jackets with a total sale of 5,000 in 2023 and 8,000 in 2024 in the month May and Hats(18,000) in September 2023.The East had Hats as the highest in March with a total sales of 18,000 in 2023 and 28,000 in 2024. There was also the sales of Shoes(13,000) in July 2024, Shirts(30,000) in July 2023 adn Jacket(15,000) in November 2023. The West had the sales of Socks increase from 8,0000 in 2023 to 10,000 in 2024 in the month of April. There was also the sales of Shoes(10,000) in and Hats(18,000) in August 2023 and 2024 respectively and Gloves(13,000) in December 2023.
+
 ![sd visuals6](https://github.com/user-attachments/assets/419de3a4-4e4f-48ad-8bab-9441e8a1403a)
 ![sd visuals7](https://github.com/user-attachments/assets/8ab0306c-01fa-43a1-b021-004a149fbd3f)
 
-
-- #### Under-performing Products:
-Socks and Jacket are the two most under-performing products. It is also noticeable that the sale of these items in April in the West and May in the North respectively were consistently low in the both years. 
 
 - #### Yearly/Quarterly Sales Performance:
 There was an overall decrease in sales of the products from 195,000 in 2023 to 150,000 in 2024. There was a significant increase in sales in Qtr1 (72,500) and Qtr2(47,500) in 2024 from what it was in 2023, 55,000 and 32,500 respectively. Also, there was a decrease in sales in Qtr3 from 57,500 in 2023 to 30,000 in 2024 with no sale at all in Qtr4 of 2024.
@@ -215,4 +212,8 @@ Analysis also shows that February and June were on the average the most performi
 ![sd visuals3](https://github.com/user-attachments/assets/1b0ad229-f209-45d9-a64d-b9f54f30f1a0)
 ![sd visuals4](https://github.com/user-attachments/assets/474b5feb-7f63-4edb-b845-e896a440e449)
 ![sd visuals4](https://github.com/user-attachments/assets/b376b3ec-56e8-4167-a937-7c79dd97594b)
+
+
+### 🔦 Inferences:
+From the above findings on the product sale, the trend in the sale of specific products in specific months of the year indicates the need for the availabilty of more of those products at those times of the year and in the regions of higher sale. Fpr instance,sz
 
