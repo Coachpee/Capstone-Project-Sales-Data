@@ -154,23 +154,15 @@ Group by [Region]
 
 - Created interactive dashboards to visualize:
 
-  - Monthly sales trends
+  - Quarterl/Yearly sales trends
  
   - Top-performing products
  
   - Sales distribution across regions
 
-Some of the visualizations can be seen below;
+The visualization dashboard is shown below;
 
-
-![Sales Data PBI visualization 1](https://github.com/user-attachments/assets/e0b02dea-3e47-4366-8095-c129e7323b30)
-
-![Sales Data PBI visualization 2](https://github.com/user-attachments/assets/518a989e-3c78-4c62-a085-28605af0bdad)
-
-![Sales Data PBI visualization 5](https://github.com/user-attachments/assets/7200eb99-700a-42df-aa06-16748e58923b)
-
-![Sales Data PBI visualization 7](https://github.com/user-attachments/assets/e7c89d39-afb5-4c55-b910-b11886505ecc)
-
+![sd dashboard](https://github.com/user-attachments/assets/e723d181-a416-4ef6-a386-1c06b4b737bb)
 
 
 ------------------------
@@ -178,6 +170,8 @@ Some of the visualizations can be seen below;
 
 - #### Top-performing Products:
 The top 3 performing products were Hats, Shirts and Shoes with Hats being the highest selling product in the year 2023 and 2024 with a total of 80000 sales, having the most sale (45000) in the Eastern region in the month of March.  A consistency is seen in the sale of Hats in the East in the month of March in the previous years. Hence the need to consider stocking up on Hats in the said month in the Eastern to ensure sales.
+
+
 
 - #### Regional Sales Performance:
 The South had the highest sales in 2023 and 2024. However, there was a decline in sales in 2024 in all the regions. It is important that the possible causes of the this is looked into avoid reoccurence in the subsequent years.
