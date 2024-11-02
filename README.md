@@ -2,10 +2,27 @@
 
 ### Project Outline :
 
--(Project Title)
+- [Project Title](Project-Title)
 
+- [Project Overview](Project-Overview)
 
+- [Dataset](Dataset)
 
+- [Tools Used](Tools-Used)
+
+- [Analysis Steps](Analysis-Steps)
+
+  -[Data Cleaning](Data-Cleaning)
+
+  -[ Exploratory Data Analysis (EDA)](Exploratory-Data-Analysis (EDA))
+
+  -[Data Analysis](Data-Analysis)
+
+  -[Visualization](Visualization)
+
+- [Key Findings](Key-Findings)
+
+----------------
 
 ### Project Title : Sales Performance Analysis for a Retail Store
 
