@@ -1,5 +1,8 @@
 # Capstone-Project-Sales-Data
 
+### Project Outline :
+
+
 ### Project Title : Sales Performance Analysis for a Retail Store
 
 ### 📊 Project Overview
@@ -181,8 +184,11 @@ Socks and Jacket are the two most under-performing products. It is also noticeab
 
 - #### Yearly/Quarterly Sales Performance:
 There was an overall decrease in sales of the products from 195,000 in 2023 to 150,000 in 2024. There was a significant increase in sales in Qtr1 (72,500) and Qtr2(47,500) in 2024 from what it was in 2023, 55,000 and 32,500 respectively. Also, there was a decrease in sales in Qtr3 from 57,500 in 2023 to 30,000 in 2024 with no sale at all in Qtr4 of 2024.
-Analysis also shows that April and May  were the two most under-perfoming months in the both years.
+Overall, there Qtr1 had the most sales(127,500), followed by Qtr3(87,500), then Qtr2(80,000) and then Qtr4(50,000).
+
+Analysis also shows that February and June were on the average the most performing months whereas, May and December were on the average, the two most under-perfoming months.
 
 ![sd visuals3](https://github.com/user-attachments/assets/1b0ad229-f209-45d9-a64d-b9f54f30f1a0)
 ![sd visuals4](https://github.com/user-attachments/assets/474b5feb-7f63-4edb-b845-e896a440e449)
+![sd visuals4](https://github.com/user-attachments/assets/b376b3ec-56e8-4167-a937-7c79dd97594b)
 
