@@ -198,7 +198,10 @@ The top 3 performing products were Hats, Shirts and Shoes with Hats being the hi
 
 
 - #### Regional Sales Performance:
-The South had the highest sales in 2023 and 2024. However, there was a decline in sales in 2024 in all the regions. It is important that the possible causes of the this is looked into avoid reoccurence in the subsequent years.
+The South had the highest sales in 2023(68,000) and 2024(55,000). There was an overall decline in sales in 2024 in all the regions with the sales with the sales of only Gloves, Shoes and Socks in the months of June,February and October respectively. Gloves and Shoes were the highest selling in the South.
+![sd visuals6](https://github.com/user-attachments/assets/419de3a4-4e4f-48ad-8bab-9441e8a1403a)
+![sd visuals7](https://github.com/user-attachments/assets/8ab0306c-01fa-43a1-b021-004a149fbd3f)
+
 
 - #### Under-performing Products:
 Socks and Jacket are the two most under-performing products. It is also noticeable that the sale of these items in April in the West and May in the North respectively were consistently low in the both years. 
