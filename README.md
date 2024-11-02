@@ -17,8 +17,6 @@ The dataset used in this project contains sales transactions in 2023 and 2024. I
 - #### Quantity
 - #### Unit Price
 
-You can find the dataset [here] (
-
 ------------
 
 ### 🧰 Tools Used
@@ -44,17 +42,24 @@ You can find the dataset [here] (
 
 - Investigated geographical trends to identify high performing regions
 
-- Identified high-selling products
+- Identified top-selling products
 
-![EDA for sales data](https://github.com/user-attachments/assets/9ce31738-0d1a-474a-abb5-04202b879425)
+#### *Pivot Table Visualzations:*
+
+![SD pivot table 1](https://github.com/user-attachments/assets/67172c9c-fc93-46d2-aeb8-56edcd1d7da2)
+![SD pivot table 2](https://github.com/user-attachments/assets/83d5dbc4-2879-4c94-a38b-f0943084c03b)
+![SD pivot table 7](https://github.com/user-attachments/assets/c77b2c75-c045-4f53-b26f-f10e0f27947b)
+![SD pivot table 6](https://github.com/user-attachments/assets/b07bcc9f-ee3d-4bab-a75d-e29b2a46701e)
 
 
+![SD pivot table 3](https://github.com/user-attachments/assets/68075bfa-1e01-4cb9-8a0e-10452cd43eba)
+![SD pivot table 4](https://github.com/user-attachments/assets/e2ac6da8-faed-4ed0-9378-eefebfa0d2a8)
 
 
 
 #### 3. Data Analysis
 
-Here, I used Basic Excel functions to calculate the Average sales per product and total revenue by region using the AverageIF anf SUMIF functions.
+Here, I used Basic Excel functions to calculate the Average sales per product and total revenue by region using the AverageIF and SUMIF functions.
 Below is a sample of the arguments used.
 
 ```Excel
@@ -66,6 +71,21 @@ Below is a sample of the arguments used.
 ```
 
 I was also able to perform some calculations such as the percentage of total sales contributed by each region, monthly sales totals for the current year and total revenue per product using SQL. Using SQL, I was able to gain more insight into the sales by finding the top 5 customers by total purchase amount,products with no sales in the last quarter and the highest-selling product by total sales value. Below are some of the queries used;
+
+**To find the total sales for each product category**:
+
+```SQL
+Select sum([Quantity]) as TotalSales,[Product]from [dbo].[LITA Capstone sales data]
+Group by [Product]
+Order by 1 desc
+```
+
+**To find the number of sales transactions in each region**:
+
+```SQL
+Select COUNT([Product]) as salestransactions, [Region] from [dbo].[LITA Capstone sales data]
+Group by [Region]
+```
 
 **To find the top 5 customers by total purchase amount**:
 
@@ -87,6 +107,47 @@ group by [Month], [Product]
 Select sum([Quantity]) as TotalSales,[Product]from [dbo].[LITA Capstone sales data]
 Group by [Product]
 Order by 1 desc
+```
+
+**To find the total revenue per product**:
+
+```SQL
+Alter table [dbo].[LITA Capstone sales data]
+Add Revenue int
+update [dbo].[LITA Capstone sales data]
+set [Revenue] =[Quantity]*[UnitPrice]
+Select sum([Revenue]) as TotalRevenue,[Product]from [dbo].[LITA Capstone sales data]
+Group by [Product]
+```
+
+**To calculate monthly sales totals for the current year**:
+
+```SQL
+alter table [dbo].[LITA Capstone sales data]
+add Years int
+update [dbo].[LITA Capstone sales data]
+set Years= YEAR([OrderDate])
+alter table [dbo].[LITA Capstone sales data]
+add Month int
+update [dbo].[LITA Capstone sales data]
+set[Month] = month([OrderDate])
+select * from [dbo].[LITA Capstone sales data]
+select sum([Quantity]) as monthlysales,[Month] from [dbo].[LITA Capstone sales data]
+where [Years]=2024
+group by [Month]
+```
+
+**To calculate the percentage of total sales contributed by each region**:
+
+```SQL
+select * from [dbo].[LITA Capstone sales data]
+select sum ([Quantity]) as totalsale from [dbo].[LITA Capstone sales data]
+alter table [dbo].[LITA Capstone sales data]
+add Percentagesales decimal (10,5)
+update [dbo].[LITA Capstone sales data]
+set[Percentagesales] =(cast([Quantity] as decimal)/3450.000000)
+Select sum([Percentagesales]) as percentageSales, [Region] from [dbo].[LITA Capstone sales data]
+Group by [Region]
 ```
 
 #### 4. Visualization
