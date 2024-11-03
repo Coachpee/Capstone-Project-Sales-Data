@@ -22,9 +22,13 @@
 
 ### Project Title : Sales Performance Analysis for a Retail Store
 
+----------
+
 ### 📊 Project Overview
 
 This project analyzes the sales performance of a retail store and seeks to uncover key insights such as top selling products, regional performance and monthly sales trends. The goal is to produce an interactive Power BI dashboard that highlights these findings. By analyzing the various parameters in the data received,we seek to gatherinsights enough to make reasonable decisions which then enables us tell compelling stories around our data.
+
+---------------
 
 ### 📂 Dataset
 
@@ -80,7 +84,9 @@ The dataset used in this project contains sales transactions in 2023 and 2024. I
 #### 3. Data Analysis
 
 Here, I used Basic Excel functions to calculate the Average sales per product and total revenue by region using the AverageIF and SUMIF functions.
-Below is a sample of the arguments used.
+Below is a sample of the arguments used. Using the multiplication formula, I was able to create a **Revenue column**  by multiplying the **Unit Price** with the **Quantity**. For example; =F2*G2
+
+Below is a sample of the arguments used to run the analysis.
 
 ```Excel
 =AVERAGEIF($C$2:$C$50001,P5,$F$2:$F$50001)
