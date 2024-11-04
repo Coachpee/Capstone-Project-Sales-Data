@@ -109,6 +109,7 @@ Select sum([Quantity]) as TotalSales,[Product]from [dbo].[LITA Capstone sales da
 Group by [Product]
 Order by 1 desc
 ```
+![sdsql1](https://github.com/user-attachments/assets/dc448426-ef98-4a72-b21b-55cb9efc30ea)
 
 **To find the number of sales transactions in each region**:
 
@@ -116,6 +117,7 @@ Order by 1 desc
 Select COUNT([Product]) as salestransactions, [Region] from [dbo].[LITA Capstone sales data]
 Group by [Region]
 ```
+![sdsql2](https://github.com/user-attachments/assets/591be597-fb8c-4fc5-ae88-2baff74b2ea7)
 
 **To find the top 5 customers by total purchase amount**:
 
@@ -124,6 +126,8 @@ select top(5) sum([Quantity]) as Top5customers, [Customer_Id] from [dbo].[LITA C
 Group by [Customer_Id]
 order by 1 desc
 ```
+![sdsql6JPG](https://github.com/user-attachments/assets/88f29423-b263-44e3-9aaa-660279ac00b7)
+
 **To find products with no sales in the last quarter**:
 
 ```SQL
@@ -131,6 +135,8 @@ select sum([Quantity]) as monthlysales, [Month], [Product]from [dbo].[LITA Capst
 where [Years]=2024 and [Month] >9
 group by [Month], [Product]
 ```
+**None of the products was sold in the last quarter.**
+
 **To find the highest-selling product by total sales value**:
 
 ```SQL
@@ -138,6 +144,9 @@ Select sum([Quantity]) as TotalSales,[Product]from [dbo].[LITA Capstone sales da
 Group by [Product]
 Order by 1 desc
 ```
+![sdsql3](https://github.com/user-attachments/assets/57544357-3560-49c4-ad9a-23d7c2366c9d)
+
+The highest selling product is Hats with a total sale of 80,000.
 
 **To find the total revenue per product**:
 
@@ -149,6 +158,8 @@ set [Revenue] =[Quantity]*[UnitPrice]
 Select sum([Revenue]) as TotalRevenue,[Product]from [dbo].[LITA Capstone sales data]
 Group by [Product]
 ```
+
+![sdsql4](https://github.com/user-attachments/assets/4206589a-168f-4a71-bc59-6c935a536b8e)
 
 **To calculate monthly sales totals for the current year**:
 
@@ -167,6 +178,8 @@ where [Years]=2024
 group by [Month]
 ```
 
+![sdsql5](https://github.com/user-attachments/assets/fc144926-f8bd-4db4-b0da-74c657ebeb93)
+
 **To calculate the percentage of total sales contributed by each region**:
 
 ```SQL
@@ -179,6 +192,8 @@ set[Percentagesales] =(cast([Quantity] as decimal)/3450.000000)
 Select sum([Percentagesales]) as percentageSales, [Region] from [dbo].[LITA Capstone sales data]
 Group by [Region]
 ```
+![sdsql7](https://github.com/user-attachments/assets/e0bd7210-2074-471a-a479-77967f2fc6b7)
+
 
 #### 4. Visualization
 
@@ -236,7 +251,7 @@ Analysis also shows that February and June were on the average the most performi
 
 ### 🔦 Recommendations:
 
-Based on these insights, targetd strategies like **region-specific promotions**, **seasonal inventory adjustments** and **focus on hihg-demand products** can be developed to enhance overall sales performance and address regional demand patterns.
+Based on these insights, targeted strategies like **region-specific promotions**, **seasonal inventory adjustments** and **focus on high-demand products** can be developed to enhance overall sales performance and address regional demand patterns.
 
 ### 📘 Conclusion:
 
