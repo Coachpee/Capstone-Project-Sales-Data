@@ -26,7 +26,7 @@
 
 ### 📊 Project Overview
 
-This project analyzes the sales performance of a retail store and seeks to uncover key insights such as top selling products, regional performance and monthly sales trends. The goal is to produce an interactive Power BI dashboard that highlights these findings. By analyzing the various parameters in the data received,we seek to gatherinsights enough to make reasonable decisions which then enables us tell compelling stories around our data.
+This project analyzes the sales performance of a retail store and seeks to uncover key insights such as top selling products, regional performance and monthly sales trends. The goal is to produce an interactive Power BI dashboard that highlights these findings. By analyzing the various parameters in the data received,I seek to gather insights enough to make reasonable decisions which then enables me to tell a compelling story around our data.
 
 ---------------
 
@@ -45,11 +45,11 @@ The dataset used in this project contains sales transactions in 2023 and 2024. I
 
 ### 🧰 Tools Used
 
-- Microsoft Excel: For initial data exploration and pivot table analysis
+- Microsoft Excel: For data cleaning, initial data exploration and pivot table analysis
 
-- Structured Query Language (SQL): For Data Querying and Analysis
+- Structured Query Language (SQL): For data querying and analysis
   
-- Power BI: For building interactive dashboards and visualizations
+- Power BI: For data cleaning and building of interactive dashboards and visualizations
 
 ---------
 ### 🔍 Analysis Steps
@@ -58,7 +58,9 @@ The dataset used in this project contains sales transactions in 2023 and 2024. I
 
 - Ensured there were no duplicate records and missing values
 
-- Ensured that product names and customer regions were standardized.
+- Ensured that product names and customer regions were standardized
+
+- Ensured that the columns were fixed at the right data type
 
 #### 2. Exploratory Data Analysis (EDA)
 
@@ -197,7 +199,7 @@ Group by [Region]
 
 #### 4. Visualization
 
-- Created interactive dashboards to visualize:
+Created interactive dashboards to visualize:
 
   - Quarterly/Yearly sales trends
  
