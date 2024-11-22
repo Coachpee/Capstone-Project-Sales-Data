@@ -86,7 +86,7 @@ The dataset used in this project contains sales transactions in 2023 and 2024. I
 #### 3. Data Analysis
 
 Here, I used Basic Excel functions to calculate the Average sales per product and total revenue by region using the AverageIF and SUMIF functions.
-Below is a sample of the arguments used. Using the multiplication formula, I was able to create a **Revenue column**  by multiplying the **Unit Price** with the **Quantity**. For example; =F2*G2
+Using the multiplication formula, I was able to create a **Revenue column**  by multiplying the **Unit Price** with the **Quantity**. For example; =F2*G2
 
 Below is a sample of the arguments used to run the analysis.
 
@@ -257,4 +257,4 @@ Based on these insights, targeted strategies like **region-specific promotions**
 
 ### 📘 Conclusion:
 
-The sales analysis provided valuable insights into the performance of different product categories(Gloves,Shoes,Jacket.Shirts,and Socks) across the four major regions (East,West,North and South). By examining key metrics such as total revenue, total sales volume and Monyhly,Quarter and Yearly trends, we could identify the best-performing products and  and regions, we could identify the best-performing products, region as well as opportunities for improvement.
+The sales analysis provided valuable insights into the performance of different product categories(Gloves,Shoes,Jacket.Shirts,and Socks) across the four major regions (East,West,North and South). By examining key metrics such as total revenue, total sales volume and Monthly,Quarter and Yearly trends, we could identify the best-performing products and  and regions, we could identify the best-performing products, region as well as opportunities for improvement.
